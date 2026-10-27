@@ -1,18 +1,31 @@
-# AI Agent
-.opencode/
-.cursor/
-.claude/
-.windsurf/
-.gemini/
-.aider*
-.bolt/
+# AI Agent Local Directories                                                                              
+.opencode/                                                                                                
+.cursor/                                                                                                  
+.claude/                                                                                                  
+.windsurf/                                                                                                
+.gemini/                                                                                                  
+.aider*                                                                                                   
+.bolt/                                                                                                    
 .cline/
-
-#SpecKit
-.specify/cache/
-.specify/logs/
-.specify/init-options.json
-.specify/integration.json
-
-#Environment & Secrets
-.env
+.agents/                                                                                                   
+                                                                                                              
+#Spec Kit - Ignore temporary caches and logs                                                             
+.specify/cache/                                                                                           
+.specify/logs/                                                                                            
+                                                                                                              
+#Spec Kit assets (DO NOT IGNORE)                                                   
+!.specify/memory/                                                                                         
+!.specify/memory/constitution.md                                                                          
+!.specify/templates/                                                                                      
+!.specify/scripts/                                                                                        
+!.specify/workflows/                                                                                      
+                                                                                                              
+#Feature specifications MUST be tracked in Git for team review                                           
+!specs/                                                                                                   
+                                                                                                              
+#Environment and secrets                                                                                 
+.env                                                                                                      
+.env.local                                                                                                
+                                                                                                              
+#Course archive / raw reference                                                                          
+temp_folder/                            
